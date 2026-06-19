@@ -102,9 +102,10 @@ img {
 
 .hero p {
   max-width: 700px;
-  margin: 0 0 1.75rem;
+  margin: 0 auto 1.75rem;
   color: rgba(255, 255, 255, 0.88);
   font-size: 1.05rem;
+  text-align: center;
 }
 
 .button {
