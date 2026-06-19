@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^python3 - <<'PY'\nimport urllib\\.request\nurl='https://nazonofreenote\\.github\\.io/'\ntry:\n    with urllib\\.request\\.urlopen\\(url, timeout=20\\) as r:\n        print\\('STATUS', r\\.status\\)\n        html = r\\.read\\(1024\\)\\.decode\\('utf-8', errors='replace'\\)\n        print\\(html\\[:400\\]\\)\nexcept Exception as e:\n    print\\('ERROR', e\\)\nPY$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
